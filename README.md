@@ -1,5 +1,6 @@
 # seq-gen-proj
 Project to get the random tracking number for different Client purpose.
+
 **Deployed URL:**
 
 This project is deployed in Railway.app and avaiable in the below link.
