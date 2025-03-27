@@ -10,6 +10,7 @@ https://seq-gen-proj-production.up.railway.app/api/next-tracking-number
 **API Details:**
 
 GET -> https://seq-gen-proj-production.up.railway.app/api/next-tracking-number
+
 Request -> {
     "origin_country_id" : "MY",
     "destination_country_id":"ID",
