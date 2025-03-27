@@ -17,7 +17,8 @@ public class RandomService {
 	public ResponseDTO generateTrackingNumber(RequestDTO requestDTO) {
 		Map<String,Object> response = idGenerator.generateId();
 		ResponseDTO responseDTO =new ResponseDTO(); 
-		String trackingNumber ="CUST" + requestDTO.getCustomer_id().substring(5) + "-" + (response.get("generatedID")).toString();
+		String trackingNumber ="CUST" + requestDTO.getCustomer_id().substring(2)+ "-" + 
+		requestDTO.getOrigin_country_id() + requestDTO.getDestination_country_id() + "-" + (response.get("generatedID")).toString();
 		Instant timestamp = Instant.ofEpochMilli(Long.valueOf(response.get("timestamp").toString()));
 		responseDTO.setCreatedAt(timestamp);
 		responseDTO.setTrackingNumber(trackingNumber);
