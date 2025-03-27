@@ -1,6 +1,13 @@
 # seq-gen-proj
 Project to get the random tracking number for different Client purpose.
 
+**Project Setup**
+
+1. Download Project
+2. Run RandomApplication.java locally
+3. Application will startup and API are ready to test.
+4. Use below API details to test in local.
+
 **Deployed URL:**
 
 This project is deployed in Railway.app and avaiable in the below link.
