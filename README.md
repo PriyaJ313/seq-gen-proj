@@ -8,5 +8,5 @@ https://seq-gen-proj-production.up.railway.app/api/next-tracking-number
 
 **To test in postman use below collection**
 
-src\main\resources\TrackingNumberAPI.postman_collection
+src/main/resources/TrackingNumberAPI.postman_collection
 
